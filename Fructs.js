@@ -29,23 +29,23 @@ let box_y4 = getRandomNumber(40,700 - box_heigth);
 
 let image = new Image();
 
-image.src = 'image/apple.png';
+image.src = 'apple.png';
 
 let image2 = new Image();
 
-image2.src = 'image/grusha.png';
+image2.src = 'grusha.png';
 
 let image3 = new Image();
 
-image3.src = 'image/orange.png';
+image3.src = 'orange.png';
 
 let image4 = new Image();
 
-image4.src = 'image/pomidor.png';
+image4.src = 'pomidor.png';
 
 let image5 = new Image();
 
-image5.src = 'image/redis.png';
+image5.src = 'redis.png';
 image.onload = () => {
     image2.onload = () => {
       image3.onload = () => {
